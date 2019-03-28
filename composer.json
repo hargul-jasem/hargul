@@ -1,0 +1,37 @@
+{
+    "name":        "hargul/fallbackmodule",
+    "description": "",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "Editor"
+    ],
+    "homepage":    "https://www.unit-m.de",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "Unit-m  ",
+            "email": "info@unit-m.de"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "hargul/fallbackmodule"
+        }
+    },
+    "require":     {
+        "php": ">=5.6"
+    },
+    "autoload":    {
+        "psr-4": {
+            "hargul\\fallbackmodule\\": "../../../source/modules/hargul/fallbackmodule"
+        }
+    }
+}
+
+
